@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="" dir="">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>eCampus - eCampus-Anmeldeseite</title>
+	
+    
+	
+	
+	
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	
+	<link rel="apple-touch-startup-image" href="./templates/default/images/logo/ilias_logo_startup_320x460.png" /><!-- Startup image -->
+	<link rel="apple-touch-icon-precomposed" href="./templates/default/images/logo/ilias_logo_57x57-precomposed.png" /><!-- iphone -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./templates/default/images/logo/ilias_logo_72x72-precomposed.png" /><!-- ipad -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./templates/default/images/logo/ilias_logo_114x114-precomposed.png" /><!-- iphone retina -->
+	
+	
+	<link rel="stylesheet" type="text/css" href="./libs/bower/bower_components/Yamm3/yamm/yamm.css" media="screen" />
+	
+	
+	<link rel="stylesheet" type="text/css" href="./Customizing/global/skin/ecampus/ecampus.css?vers=5-3-22-2020-06-26-$Id$" />
+	
+	<!-- <link rel="P3Pv1" href="" /> -->
+	
+
+
+	
+	<script type="text/javascript" src="./libs/bower/bower_components/jquery/dist/jquery.js?vers=5-3-22-2020-06-26"></script>
+	<script type="text/javascript" src="./Services/JavaScript/js/Basic.js?vers=5-3-22-2020-06-26"></script>
+	<script type="text/javascript" src="./libs/bower/bower_components/jquery-migrate/jquery-migrate.min.js?vers=5-3-22-2020-06-26"></script>
+	<script type="text/javascript" src="./libs/bower/bower_components/bootstrap/dist/js/bootstrap.min.js?vers=5-3-22-2020-06-26"></script>
+	<script type="text/javascript" src="./libs/bower/bower_components/yui2/build/yahoo-dom-event/yahoo-dom-event.js?vers=5-3-22-2020-06-26"></script>
+	<script type="text/javascript" src="./libs/bower/bower_components/yui2/build/animation/animation-min.js?vers=5-3-22-2020-06-26"></script>
+	<script type="text/javascript" src="Services/Form/js/Form.js?vers=5-3-22-2020-06-26"></script>
+	
+</head>
+<body class="std"  >
+<!-- drag_zmove used, e.g. in learnin modules to drag layout borders -->
+<div id="drag_zmove"></div>
+<div id="ilAll">
+<div id="ilTopBar" class="ilTopBar">
+	<div class="container">
+		<div class="row">
+            
+            <div class="ilTopTitle">eCampus | Lernplattform der Universität Bonn</div>
+            
+            <ul id="ilTopBarNav" class="">
+                
+                <li class="dropdown"><a id="mm_lang_sel" href="#" class="dropdown-toggle" data-toggle="dropdown">Sprache <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+
+
+
+
+<li class=""><a href="login.php?target=file_1786339_download&cmd=force_login&lang=de" target="_top"  >Deutsch</a></li>
+
+
+
+
+
+<li class=""><a href="login.php?target=file_1786339_download&cmd=force_login&lang=en" target="_top"  >English</a></li>
+
+
+
+
+
+<li class=""><a href="login.php?target=file_1786339_download&cmd=force_login&lang=ja" target="_top"  >Japanese</a></li>
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+
+                </li>
+                
+            </ul>
+		</div>
+	</div>
+</div>
+<div class="ilMainHeader">
+	<header class="container">
+		<div id="il_startup_logo" class="row">
+			 <!-- <img class="hidden-xs noMirror" src="./Customizing/global/skin/ecampus/images/HeaderIcon.svg" alt="Logo" /> -->
+			 <!-- <img class="visible-xs-inline-block noMirror" src="./Customizing/global/skin/ecampus/images/HeaderIconResponsive.svg" alt="Logo" /> -->
+			 <!-- eCampus -->
+			 <img class="hidden-xs noMirror" src="Customizing/global/skin/ecampus/images/logo_unibonnecampus.png" alt="Logo"  />
+			<img class="visible-xs-inline-block noMirror" src="Customizing/global/skin/ecampus/images/logo_ecampus.png" alt="Logo"  />
+			
+		</div>
+	</header>
+</div>
+<div class="ilMainMenu">
+	<div class="container">
+		<div class="row">
+			<nav id="ilTopNav" class="navbar navbar-default" role="navigation"></nav>
+		</div>
+	</div>
+</div>
+<!-- ecampus -->
+<div id="main-bg-startup" class="main-bg-startup"></div> 
+<div id="mainspacekeeper" class="container">
+	<div class="row" style="position: relative;">
+		<div id="fixed_content" class=" ilContentFixed">
+			<div id="mainscrolldiv" class="ilStartupFrame container">
+				
+				
+				<div class="ilMessageBox">
+					
+					
+				</div>
+				
+<div class="small"><h1>Löschung alter Kurse steht bevor</h1>
+<p>Bitte unbedingt beachten: Demnächst werden sämtliche Kurse mit BASIS-Kopplung gelöscht, sofern sie älter als sechs Semester sind. Weitere Infos finden Sie unter <a href="https://www.ecampus-services.uni-bonn.de/de/nachrichten/kurse-loeschen" target="_blank">https://www.ecampus-services.uni-bonn.de/de/nachrichten/kurse-loeschen</a></p>
+<h1>Wartungsfenster</h1>
+<p>Bitte beachten Sie unser Wartungsfenster für planmäßige Wartungen der Lernplattform mittwochs von 10:00 bis 13:00. Planmäßige Wartungen innerhalb des Wartungsfensters, bei denen eine Benutzung des Systems nicht möglich ist, kündigen wir mehrere Tage zuvor an dieser Stelle an. Bei größeren Änderungen an der Infrastruktur oder Major Upgrades kann es zu Betriebsunterbrechungen über 13:00 hinaus kommen. Dies werden wir im Einzelfall ebenfalls hier bekannt geben. Im Fall von Betriebsstörungen oder notwendigen Sicherheitsupgrades können außerplanmäßige Wartungen erforderlich sein.</p>
+<h1>Anmeldung</h1>
+<p>Um sich anzumelden, geben Sie bitte Ihre <a href="https://www.hrz.uni-bonn.de/de/services/identity-management/uni-id" target="_blank">Uni-ID</a> (Benutzerkennung, maximal acht Zeichen) und das zugehörige Passwort ein.<br />Weitere Informationen zur Uni-ID:</p>
+<ul>
+<li>
+<p><a href="https://www.hrz.uni-bonn.de/de/services/identity-management/benutzergruppen/studierende" target="_blank">Für Studierende</a></p>
+</li>
+<li>
+<p><a href="https://www.hrz.uni-bonn.de/de/services/identity-management/benutzergruppen/mitarbeiter" target="_blank">Für Mitarbeiter</a></p>
+</li>
+</ul></div>
+
+
+<div>
+	
+</div>
+<div class="ilStartupSection">
+	
+	
+	<!-- BEGIN cas_login -->
+	<p>
+		
+	</p>
+	<!-- END cas_login_form -->
+	
+	<p>
+		<form id="form_" role="form"
+class="form-horizontal preventDoubleSubmission"
+
+
+name="formlogin"
+action="ilias.php?lang=de&amp;target=file_1786339_download&amp;cmd=post&amp;cmdClass=ilstartupgui&amp;cmdNode=wu&amp;baseClass=ilStartUpGUI&amp;rtoken=" method="post" novalidate="novalidate">
+
+<div class="form-horizontal">
+<!-- todo: HIDE_LABELS_STYLE -->
+
+
+<!-- Please note the usage of datatable attribute which is non-standard
+	but ensures that JAWS treats this table as a layout table -->
+<!-- removed a width="" -->
+
+
+
+
+
+		<div class="ilFormHeader"><h3 class="ilHeader"><a name="il_form_top"></a>Bei eCampus anmelden</h3>
+		<div class="ilFormCmds">
+				
+				
+		</div>
+		<div class="ilHeaderDesc"></div>
+		</div>
+
+
+
+
+
+
+<div class="form-group" id="il_prop_cont_username">
+	<label for="username" class="col-sm-3 control-label">Uni-ID <span class="asterisk">*</span></label>
+	<div class="col-sm-9">
+
+
+
+
+
+
+
+
+
+		
+
+			
+	<input class="form-control"  type="text"  id="username"  maxlength="200" name="username"   required="required"/> 
+	
+	
+	
+	
+		
+				
+		
+
+
+
+
+
+		</div>
+	</div> <!-- end of ilFormRow -->
+	<!-- <script type="text/javascript">
+	$(function() {
+		il.Form.initItem('', );
+	});
+	</script> -->
+
+
+
+
+
+<div class="form-group" id="il_prop_cont_password">
+	<label for="password" class="col-sm-3 control-label">Passwort <span class="asterisk">*</span></label>
+	<div class="col-sm-9">
+
+
+
+
+
+
+
+
+
+		
+
+		
+<input class="form-control" type="password" size="20" id="password" maxlength="" name="password"   required="required" /><br />
+
+
+		
+				
+		
+
+
+
+
+
+		</div>
+	</div> <!-- end of ilFormRow -->
+	<!-- <script type="text/javascript">
+	$(function() {
+		il.Form.initItem('', );
+	});
+	</script> -->
+
+
+
+
+
+
+	<div class="ilFormFooter clearfix">
+		<div class="col-sm-6 ilFormRequired">
+
+
+			<span class="asterisk">*</span><span class="small"> Erforderliche Angabe</span>
+
+		&nbsp;</div>
+		<div class="col-sm-6 ilFormCmds">
+
+		<input class="btn btn-default btn-sm" type="submit" name="cmd[doStandardAuthentication]" value="Anmelden"  />
+
+		</div>
+	</div><!-- end of ilFormRow -->
+
+</div>
+</form>
+
+	</p>
+	
+	
+	<p class="ilStartupSection">
+		
+
+<a class="il_ContainerItemCommand" href="./index.php?client_id=ecampus&lang=de">Zum öffentlichen Bereich</a>
+
+
+
+
+	</p>
+	
+	
+	<p>
+		<a class="il_ContainerItemCommand" href="ilias.php?lang=de&amp;target=file_1786339_download&amp;cmd=showTermsOfService&amp;cmdClass=ilstartupgui&amp;cmdNode=wu&amp;baseClass=ilStartUpGUI">Nutzungsvereinbarung</a>
+
+	</p>
+	
+</div>
+<script language="JavaScript">
+<!--
+if (document.formlogin.username && document.formlogin.password)
+{
+	if(document.formlogin.username.value!="") document.formlogin.password.focus();
+	else document.formlogin.username.focus();
+}
+//-->
+</script>
+
+									
+			</div>				
+		</div>			
+	</div>
+	
+
+</div>
+<div id="minheight"></div>
+<footer id="ilFooter" class="ilFooter hidden-print">
+	<div class="container">
+		<div class="row"><div class="ilFooterContainer"> <bdo class="" dir="ltr">powered by ILIAS </bdo> | 
+
+<a href="https://ecampus.uni-bonn.de/goto_ecampus_impr_0.html" target="_blank">Impressum und Datenschutzerklärung</a>
+
+
+
+
+</div></div>
+	</div>
+</footer>
+</div>
+
+</body>
+</html>
